@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    background-color: #ccc;
+}
+
+#bodydiv {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#divMain {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #120024;
+}
+
+header h1 {
+    color: white;
+}
+
+#iconBar {
+    display: flex;
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 100%;
+    margin: 0px 15px 0px 15px;
+}
+
+.icon {
+    color: white;
+    font-size: 70px;
+}
+
+#rock {
+    background-color: #b8d13d;
+}
+
+#paper {
+    background-color: #3d56d1;
+}
+
+#scissor {
+    background-color: #d13d3d;
+}
+
+#iconBar div p {
+    display: inline-block;
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 15px 0px 15px;
+}
+
+#pointsTable {
+    font-size: 22px;
+    margin: 25px 0px 25px 0px;
+}
+
+#pointsTable p {
+    display: inline-block;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#result {
+    padding: 15px;
+    background-color: #c1c1c1;
+    color: black;
+    font-size: 20px;
+    border-radius: 15px;
+    font-weight: bold;
+}
